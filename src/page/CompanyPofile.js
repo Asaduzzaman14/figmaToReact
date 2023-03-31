@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assetes/BMW_logo_(gray).svg.png'
 
-const companyPofile = () => {
+const CompanyPofile = () => {
     return (
         <div className='px-16'>
             <div>
@@ -56,4 +56,4 @@ const companyPofile = () => {
     );
 };
 
-export default companyPofile;
+export default CompanyPofile;

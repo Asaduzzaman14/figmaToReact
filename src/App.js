@@ -1,14 +1,11 @@
 import React from 'react';
-import About from './components/About'
-import CompanyPofile from './page/CompanyPofile';
-import JobPortal from './page/JobPortal';
+import { RouterProvider } from 'react-router-dom';
+import routes from './routes/routes';
 
 function App() {
   return (
-    <div className="">
-      {/* <About></About> */}
-      {/* <CompanyPofile /> */}
-      <JobPortal />
+    <div>
+      <RouterProvider router={routes} />
     </div>
   );
 }
